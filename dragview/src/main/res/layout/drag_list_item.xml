@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:background="#555555"
+  android:padding="5dip"
+  android:paddingLeft="10dip">
+
+  <ImageView android:id="@+id/drag_list_item_image"
+    android:src="@drawable/list_icon"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"/>
+
+  <TextView
+    android:id="@+id/tv_drag"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:text="测试测试测试"
+    android:textColor="#ffffff"
+    android:gravity="center_vertical"/>
+
+  <TextView
+    android:id="@+id/tv_name"
+    android:layout_width="wrap_content"
+    android:layout_height="20dip"
+    android:text="测试测试测试"
+    android:textColor="#ffffff"
+    android:gravity="center_vertical"/>
+
+  <TextView
+    android:id="@+id/tv_delete"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:padding="4dp"
+    android:text="点我删除"
+    android:textColor="#ff0000"
+    android:gravity="center_vertical"/>
+</LinearLayout>
