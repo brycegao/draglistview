@@ -15,8 +15,6 @@ import android.widget.ListView;
 
 /**
  * 支持拖拽的ListView控件
- *
- * https://blog.csdn.net/u012325403/article/details/50393982
  */
 public class DragListView extends ListView {
 
